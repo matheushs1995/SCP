@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    
+    <servlet>
+        <servlet-name>PesquisarAcompanhamentoMensalController</servlet-name>
+        <servlet-class>controller.PesquisarAcompanhamentoMensalController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PesquisarAcompanhamentoMensalController</servlet-name>
+        <url-pattern>/PesquisarAcompanhamentoMensalController</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>PesquisarAlunoController</servlet-name>
+        <servlet-class>controller.PesquisarAlunoController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PesquisarAlunoController</servlet-name>
+        <url-pattern>/PesquisarAlunoController</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>PesquisarCampusController</servlet-name>
+        <servlet-class>controller.PesquisarCampusController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PesquisarCampusController</servlet-name>
+        <url-pattern>/PesquisarCampusController</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>PesquisarCursoController</servlet-name>
+        <servlet-class>controller.PesquisarCursoController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PesquisarCursoController</servlet-name>
+        <url-pattern>/PesquisarCursoController</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>PesquisarDepartamentoController</servlet-name>
+        <servlet-class>controller.PesquisarDepartamentoController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PesquisarDepartamentoController</servlet-name>
+        <url-pattern>/PesquisarDepartamentoController</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>PesquisarEditalController</servlet-name>
+        <servlet-class>controller.PesquisarEditalController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PesquisarEditalController</servlet-name>
+        <url-pattern>/PesquisarEditalController</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>PesquisarFuncionarioController</servlet-name>
+        <servlet-class>controller.PesquisarFuncionarioController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PesquisarFuncionarioController</servlet-name>
+        <url-pattern>/PesquisarFuncionarioController</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>PesquisarNucleoController</servlet-name>
+        <servlet-class>controller.PesquisarNucleoController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PesquisarNucleoController</servlet-name>
+        <url-pattern>/PesquisarNucleoController</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    <servlet>
+        <servlet-name>PesquisarPlanoIndividualController</servlet-name>
+        <servlet-class>controller.PesquisarPlanoIndividualController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PesquisarPlanoIndividualController</servlet-name>
+        <url-pattern>/PesquisarPlanoIndividualController</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>PesquisarProfessorController</servlet-name>
+        <servlet-class>controller.PesquisarProfessorController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PesquisarProfessorController</servlet-name>
+        <url-pattern>/PesquisarProfessorController</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>PesquisarProjetoController</servlet-name>
+        <servlet-class>controller.PesquisarProjetoController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PesquisarProjetoController</servlet-name>
+        <url-pattern>/PesquisarProjetoController</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>PesquisarAreaConhecimentoController</servlet-name>
+        <servlet-class>controller.PesquisarAreaConhecimentoController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PesquisarAreaConhecimentoController</servlet-name>
+        <url-pattern>/PesquisarAreaConhecimentoController</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>ManterAcompanhamentoMensalController</servlet-name>
+        <servlet-class>controller.ManterAcompanhamentoMensalController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ManterAcompanhamentoMensalController</servlet-name>
+        <url-pattern>/ManterAcompanhamentoMensalController</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ManterAlunoController</servlet-name>
+        <servlet-class>controller.ManterAlunoController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ManterAlunoController</servlet-name>
+        <url-pattern>/ManterAlunoController</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ManterAreaConhecimentoController</servlet-name>
+        <servlet-class>controller.ManterAreaConhecimentoController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ManterAreaConhecimentoController</servlet-name>
+        <url-pattern>/ManterAreaConhecimentoController</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ManterCampusController</servlet-name>
+        <servlet-class>controller.ManterCampusController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ManterCampusController</servlet-name>
+        <url-pattern>/ManterCampusController</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ManterCursoController</servlet-name>
+        <servlet-class>controller.ManterCursoController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ManterCursoController</servlet-name>
+        <url-pattern>/ManterCursoController</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ManterDepartamentoController</servlet-name>
+        <servlet-class>controller.ManterDepartamentoController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ManterDepartamentoController</servlet-name>
+        <url-pattern>/ManterDepartamentoController</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ManterEditalController</servlet-name>
+        <servlet-class>controller.ManterEditalController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ManterEditalController</servlet-name>
+        <url-pattern>/ManterEditalController</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ManterFuncionarioController</servlet-name>
+        <servlet-class>controller.ManterFuncionarioController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ManterFuncionarioController</servlet-name>
+        <url-pattern>/ManterFuncionarioController</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ManterNucleoController</servlet-name>
+        <servlet-class>controller.ManterNucleoController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ManterNucleoController</servlet-name>
+        <url-pattern>/ManterNucleoController</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ManterPlanoIndividualController</servlet-name>
+        <servlet-class>controller.ManterPlanoIndividualController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ManterPlanoIndividualController</servlet-name>
+        <url-pattern>/ManterPlanoIndividualController</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ManterProfessorController</servlet-name>
+        <servlet-class>controller.ManterProfessorController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ManterProfessorController</servlet-name>
+        <url-pattern>/ManterProfessorController</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ManterProjetoController</servlet-name>
+        <servlet-class>controller.ManterProjetoController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ManterProjetoController</servlet-name>
+        <url-pattern>/ManterProjetoController</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ManterUsuarioController</servlet-name>
+        <servlet-class>controller.ManterUsuarioController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ManterUsuarioController</servlet-name>
+        <url-pattern>/ManterUsuarioController</url-pattern>
+    </servlet-mapping>
+    
+    <session-config>
+        
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
